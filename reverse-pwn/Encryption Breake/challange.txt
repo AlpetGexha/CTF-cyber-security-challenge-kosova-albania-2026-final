@@ -1,0 +1,28 @@
+Encryption Breaker
+350
+An old-school arcade machine uses a custom encryption algorithm to protect its save files. Your task is to reverse engineer the encryption method and decrypt the high score data to find the hidden flag.
+
+https://mnbvcxzasdfghjk-csc26.cybersecuritychallenge.al
+
+
+
+8-BIT ENCRYPTION BREAKER
+ARCADE SAVE FILE DECRYPTION
+██████╗ ██████╗ ███████╗ █████╗ ██╗ ██╗███████╗██████╗ ██╔══██╗██╔═══██╗██╔════╝██╔══██╗██║ ██║██╔════╝██╔══██╗ ██████╔╝██║ ██║█████╗ ███████║██║ ██║█████╗ ██████╔╝ ██╔══██╗██║ ██║██╔══╝ ██╔══██║╚██╗ ██╔╝██╔══╝ ██╔══██╗ ██║ ██║╚██████╔╝███████╗██║ ██║ ╚████╔╝ ███████╗██║ ██║ ╚═╝ ╚═╝ ╚═════╝ ╚══════╝╚═╝ ╚═╝ ╚═══╝ ╚══════╝╚═╝ ╚═╝
+MISSION: The classic arcade machine uses a custom 8-bit encryption algorithm to protect its save files. Your task is to reverse engineer the encryption method and decrypt the high score data to find the hidden flag.
+
+OBJECTIVE: Analyze the encrypted data patterns and find the correct decryption key.
+
+DATA AVAILABLE: Encrypted high score entries and analysis tools.
+ENCRYPTED HIGH SCORES:
+PLAYER1: 999999 points
+AgoXDBYFemFjYWVpWWY=
+GAMER2: 888888 points
+FQcbEAFlcWNiYGRoWA==
+PRO3: 777777 points
+AhQZZmlgfGxtb2s=
+ENCRYPTED DATA:
+Paste encrypted data here...
+DECRYPTION KEY:
+Enter decryption key...
+GET HINTS ANALYSIS TOOLS

@@ -1,0 +1,23 @@
+{
+  "PLC_001": {
+    "extraction_timestamp": "2026-02-13T10:55:00.631428",
+    "plc_id": "PLC_001",
+    "recipes": {
+      "recipe_001": {
+        "flow_rate": 150.0,
+        "name": "Chemical Process A",
+        "pressure": 2.3,
+        "secret_data": "CSC26{",
+        "temperature": 85.5
+      },
+      "recipe_002": {
+        "flow_rate": 200.0,
+        "name": "Chemical Process B",
+        "pressure": 1.8,
+        "secret_data": "PROD_DATA_001",
+        "temperature": 92.1
+      }
+    },
+    "status": "success"
+  }
+}

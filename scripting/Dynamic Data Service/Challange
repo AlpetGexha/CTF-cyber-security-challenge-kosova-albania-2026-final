@@ -1,0 +1,9 @@
+This is a web service that provides dynamic data that changes on every request.
+
+https://asdfghjklzxcvbn-csc26.cybersecuritychallenge.al/
+
+
+Available Endpoints
+/data - Get current dynamic data
+/history - View data history (last 10 entries)
+/stats - Service statistics

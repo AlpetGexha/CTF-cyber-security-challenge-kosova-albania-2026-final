@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-02-14T21:11:45.804375+00:00",
+  "target": "https://qwertyuioplkjhg-csc26.cybersecuritychallenge.al",
+  "discovery": {
+    "discovered_plcs": [
+      {
+        "name": "Reactor Control System",
+        "plc_id": "PLC_001",
+        "security_level": "LOW",
+        "status": "ONLINE"
+      },
+      {
+        "name": "Quality Control System",
+        "plc_id": "PLC_002",
+        "security_level": "MEDIUM",
+        "status": "ONLINE"
+      },
+      {
+        "name": "Safety Monitoring System",
+        "plc_id": "PLC_003",
+        "security_level": "HIGH",
+        "status": "ONLINE"
+      },
+      {
+        "name": "Production Scheduling System",
+        "plc_id": "PLC_004",
+        "security_level": "MEDIUM",
+        "status": "ONLINE"
+      },
+      {
+        "name": "Maintenance Management System",
+        "plc_id": "PLC_005",
+        "security_level": "LOW",
+        "status": "ONLINE"
+      }
+    ],
+    "message": "Network scan completed",
+    "status": "success",
+    "total_plcs": 5
+  },
+  "token_pivot": {
+    "source_plc": "PLC_001",
+    "finding": "Bearer token appears not scoped to plc_id; token from PLC_001 works on other PLC recipe endpoints."
+  },
+  "recipes_by_plc": {
+    "PLC_001": {
+      "extraction_timestamp": "2026-02-13T17:13:32.243448",
+      "plc_id": "PLC_001",
+      "recipes": {
+        "recipe_001": {
+          "flow_rate": 150.0,
+          "name": "Chemical Process A",
+          "pressure": 2.3,
+          "secret_data": "CSC26{",
+          "temperature": 85.5
+        },
+        "recipe_002": {
+          "flow_rate": 200.0,
+          "name": "Chemical Process B",
+          "pressure": 1.8,
+          "secret_data": "PROD_DATA_001",
+          "temperature": 92.1
+        }
+      },
+      "status": "success"
+    }
+  },
+  "errors": {
+    "PLC_002": "Unexpected response for https://qwertyuioplkjhg-csc26.cybersecuritychallenge.al/plc/PLC_002/recipes: status=521 body='<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!'",
+    "PLC_003": "Unexpected response for https://qwertyuioplkjhg-csc26.cybersecuritychallenge.al/plc/PLC_003/recipes: status=521 body='<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!'",
+    "PLC_004": "Unexpected response for https://qwertyuioplkjhg-csc26.cybersecuritychallenge.al/plc/PLC_004/recipes: status=521 body='<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!'",
+    "PLC_005": "Unexpected response for https://qwertyuioplkjhg-csc26.cybersecuritychallenge.al/plc/PLC_005/recipes: status=521 body='<!DOCTYPE html>\\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!'"
+  },
+  "secret_parts": [
+    {
+      "recipe_id": "recipe_001",
+      "secret_data": "CSC26{",
+      "name": "Chemical Process A",
+      "plc_id": "PLC_001"
+    },
+    {
+      "recipe_id": "recipe_002",
+      "secret_data": "PROD_DATA_001",
+      "name": "Chemical Process B",
+      "plc_id": "PLC_001"
+    }
+  ],
+  "assembled_secret": "CSC26{PROD_DATA_001",
+  "flags_found": [
+    "CSC26{\", \"temperature\": 85.5}"
+  ]
+}

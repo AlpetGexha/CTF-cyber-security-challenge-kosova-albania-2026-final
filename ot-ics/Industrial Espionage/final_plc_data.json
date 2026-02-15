@@ -1,0 +1,75 @@
+{
+  "recipes": {
+    "PLC_001": {
+      "extraction_timestamp": "2026-02-13T17:02:05.831213",
+      "plc_id": "PLC_001",
+      "recipes": {
+        "recipe_001": {
+          "flow_rate": 150.0,
+          "name": "Chemical Process A",
+          "pressure": 2.3,
+          "secret_data": "CSC26{",
+          "temperature": 85.5
+        },
+        "recipe_002": {
+          "flow_rate": 200.0,
+          "name": "Chemical Process B",
+          "pressure": 1.8,
+          "secret_data": "PROD_DATA_001",
+          "temperature": 92.1
+        }
+      },
+      "status": "success"
+    },
+    "PLC_004": {
+      "extraction_timestamp": "2026-02-13T17:02:32.885926",
+      "plc_id": "PLC_004",
+      "recipes": {
+        "recipe_006": {
+          "batch_size": 1000,
+          "efficiency": 94.2,
+          "name": "Production Schedule",
+          "production_time": 8.5,
+          "secret_data": "@ge}"
+        }
+      },
+      "status": "success"
+    },
+    "PLC_005": {
+      "extraction_timestamp": "2026-02-13T17:02:41.798879",
+      "plc_id": "PLC_005",
+      "recipes": {
+        "recipe_007": {
+          "last_service": "2026-01-15",
+          "maintenance_hours": 24.5,
+          "name": "Maintenance Log",
+          "next_service": "2026-02-15",
+          "secret_data": ""
+        }
+      },
+      "status": "success"
+    }
+  },
+  "flag_parts": [
+    [
+      "PLC_001",
+      "recipe_001",
+      "CSC26{"
+    ],
+    [
+      "PLC_001",
+      "recipe_002",
+      "PROD_DATA_001"
+    ],
+    [
+      "PLC_004",
+      "recipe_006",
+      "@ge}"
+    ],
+    [
+      "PLC_005",
+      "recipe_007",
+      ""
+    ]
+  ]
+}
